@@ -12,7 +12,7 @@ addons:
 env:
   global:
     - PATH=$PATH:$HOME/.cabal/bin
-    - secure: "IgL7VLZZHlfr93XZJr3aO7z4wQEG+QxfRBkfGDI+MqGwXnzePm6d9EJWizzzaN+VWbPzWrlxjGodycuDjH4aMbDn8l6Z504m/w6tkEKfezrB2B98C+OcRtf1qy/feEGc8skkhXW/XicGEPF9NAwSJLmSJBpXb9cR+BrqdT3q2HU="
+    - secure: "cZPwfB7g61JhnmFFzVn86u9j3RqIfLIzyodnM8m14GPKtXCxPltGNOMORjynmD5BqPh0mtwrdFZ0r1jb1WplYXbDMitsDyadeN5tn/Ka6F/bqCM3OiOE1TZv+HDVL1XiUzArW4f0gFLaUti576pf77ciuhaICbdYQPeLoS17QhDBBrTrGfih8QeWgnn82gnwKwRqBjmLfNe5nUZnQuvmyZTA/sCIjSnSkgT7Hso/KPDxGWSkP/3sUOPfapOMupRLkDdTsM8uLTE5JueNySDp/rdszazZt5eqOijYwAMGrHhVfE/mPd/vV8YL/S1JeZmax7tm0dmrIz9LIO7iMOWGX9GEimoudjrZJeuPiku62L4XNbBee8YF0yD7SqKNpIRgU3yX0eJxKuC4VHoiTPFgjJ5SzoORV23Qg2bjN+6cZCC15buIVgDCy3Vf0v0Hn7zAeDXTtRVkuVEal138JVIQ5gBhKDQiJ97OenMaEGgj8kTr7zqfcX8cQeFNHOftwzJ2xdjDeZA0rcjNvcnzp6hBeJz5MGiqWbDHv6cWraGMng/1FWszVpffti/lnoWMrlJn25nEgZBxBre7nzJDKAoqzzoWThnYU+LxGRPaZT/2MpsGy4T04UsqXedmoS/AZmTIE9S8YUbLa9JkMYsYqqQslrgAjrH5TJMFStXrF3nRjio="
   matrix:
     - TARGET=pandoc
     - TARGET=texlive
@@ -38,7 +38,7 @@ before_deploy:
 deploy:
   provider: releases
   api-key:
-    secure: "Lf3cMSpdhZ/2Xd4U1ty+uycfhuYaBylOJMBmSkiIkUoVVsIA51wGCfCwDV4+5vaCnWISmHGBcdzi5uLsRdN/0FyVjP9py5edrJdgX4OQJTozfalB+fz4P4zdaMDdnvQgEsSDez4O8sHoHAhkz0K9I+zVswGlpD/+3udqIohdxTo="
+    secure: "XdUtAjebTliMdSYI3UYevVh5P8rT8n+Y5cFPOhsV3QI16ehdMgUxd430lqHUEqRa9jCIuioHVh6dPV8pyBo8mnF61IYLeMkHvi/aPNcnL2GCNGx6Dsg5mtn1N3HvrUrA8aD17MuEtps5zzlp37FAk8MTBA/J+/IruVOeoCmFokUvqnRdg7uMSb6EExV0VLQVnyoUO9hHBF+LXFosoCjIA8T2hzCgPyFBmZd/00i2LtYd7zfFPOhIVmKyh5m7V8aH96YElCq5e1JLYtBfZHAHo+OjLaw5w74Xs1uKbxfgosTrhIbMDqNfLN8e2ZURfrFCWkXyLtqrLcbKVW21z82C/7bCrrRNei/HTFbHWt0t7uHKyIUzXNLMnB24DeyzNV7BqG7CdPtz7xogm9KvVpVNMLZ3S7VfmLn3FaMN5DOkKNBX8JuQtA8oEjIMDWMsisLjGHxVSZ2etq2O4KdKV+9GwKyDVnzJBsnKWgqeFlhswuBEy5zzySxJIX8UptVFjnKSnNYnAxHxMRUaaEJ7EgbwX7yjiOpMuKmMUyuALyu0mtK8FvfXQff2eGKIL9wDSg7nLuEM0ar8ulWTK0Di79hhvw8ysNneKKWbVFOQafdzKBYCKBPe7zCCzrmzuwR2lFgJaShUlxS/PVRvcStY94w+hglQAeZAGt65qfl+IvHtXS4="
   file:
     - pandoc*
     - texlive*
